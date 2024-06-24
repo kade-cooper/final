@@ -1,0 +1,16 @@
+.aboutUsBlank{
+    height: 162px;
+}
+
+.aboutImg{
+    width: 1200px;
+    height: 484px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, 
+    rgba(233,131,13,.4), rgba(233,131,13,.4)),
+    url(../images/abouthero.jpg);
+    background-size: 100%;
+
+}

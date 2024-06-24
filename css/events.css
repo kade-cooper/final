@@ -1,0 +1,94 @@
+.eventImg {
+  width: 1200px;
+  height: 484px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 135, 158, 0.35)), to(rgba(0, 135, 158, 0.35))), url(../images/bloghero.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 135, 158, 0.35), rgba(0, 135, 158, 0.35)), url(../images/bloghero.jpg);
+  background-size: 100%;
+}
+
+.events1 {
+  padding-top: 87px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 100px;
+}
+.events1 .events {
+  width: 1200px;
+  height: 124px;
+  margin-top: 34.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.events1 .events .event {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 20px;
+}
+.events1 .events .event .date {
+  width: 100px;
+  height: 100px;
+  background-color: #FC5000;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.events1 .events .event .date .dateNum {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.events1 .events .event .event-detail {
+  width: 140px;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+.events1 .events .event .event-detail .event-detail2 {
+  width: 258px;
+  height: 110px;
+  margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+}

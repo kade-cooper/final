@@ -1,0 +1,89 @@
+.eventImg{
+    width: 1200px;
+    height: 484px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, 
+    rgba(0,135,158,.35), rgba(0,135,158,.35)),
+    url(../images/bloghero.jpg);
+    background-size: 1200px;
+}
+
+.events1{
+    padding-top: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //flex-direction: column;
+    .eventWrapper{
+        width: 1200px;
+        height: 554px;
+        display: flex;
+        justify-content: space-between;
+        //flex-direction: column;
+        margin-top: 95px;
+    }
+    .events{
+        width: 400px;
+        height: 124px;
+        margin-top: 34.5px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .event{
+            //height: 100%;
+            height: 297px;
+            display: flex;
+            margin-right: 20px;
+            margin-top: 153px;
+            .date{
+                width: 100px;
+                height: 100px;
+                background-color: #FC5000;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                .dateNum{
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+            }
+
+            .event-detail{
+                
+                width: 140px;
+                margin-left: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 15px;
+
+                .event-detail2{
+                    width: 258px;
+                    height: 110px;
+                    margin-top: 5px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: 100;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+
+@media only all and (max-width: 830px){
+    .eventWrapper{
+        flex-direction: column;
+    }
+    .event{
+        margin-top: 1px;
+    }
+    .events1{
+        height: 1500px;
+    }
+}

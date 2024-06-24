@@ -1,0 +1,57 @@
+.emptySpaceContact {
+  height: 189px;
+}
+
+.galleryWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 534px;
+}
+.galleryWrapper .galleryImg1 {
+  width: 361px;
+  height: 591px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(233, 131, 13, 0.4)), to(rgba(233, 131, 13, 0.4))), url(../images/gallery_two.jpg);
+  background-image: linear-gradient(to bottom, rgba(233, 131, 13, 0.4), rgba(233, 131, 13, 0.4)), url(../images/gallery_two.jpg);
+  background-size: 100%, 125%;
+  background-position: 0px, -40px;
+  margin-right: 126px;
+}
+.galleryWrapper .galleryImg2 {
+  width: 450px;
+  height: 300px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(233, 131, 13, 0.4)), to(rgba(233, 131, 13, 0.4))), url(../images/gallery_one.jpg);
+  background-image: linear-gradient(to bottom, rgba(233, 131, 13, 0.4), rgba(233, 131, 13, 0.4)), url(../images/gallery_one.jpg);
+  background-size: 100%;
+  background-position: 20px, 0px;
+  margin-right: 133px;
+}
+.galleryWrapper .galleryImg3 {
+  width: 512px;
+  height: 351px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 135, 158, 0.35)), to(rgba(0, 135, 158, 0.35))), url(../images/gallery_three.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 135, 158, 0.35), rgba(0, 135, 158, 0.35)), url(../images/gallery_three.jpg);
+  background-size: 100%;
+  margin-right: 119px;
+}
+.galleryWrapper .galleryImg4 {
+  width: 480px;
+  height: 628px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 135, 158, 0.35)), to(rgba(0, 135, 158, 0.35))), url(../images/gallery_four.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 135, 158, 0.35), rgba(0, 135, 158, 0.35)), url(../images/gallery_four.jpg);
+  background-size: 100%;
+  margin-right: 178px;
+}
+.galleryWrapper .galleryWrapper2 .galleryTitle {
+  height: 36px;
+  margin-bottom: 65px;
+  font-size: 32px;
+  text-align: center;
+}
+.galleryWrapper .galleryWrapper2 .galleryP {
+  width: 717px;
+  height: 521px;
+}

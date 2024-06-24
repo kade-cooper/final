@@ -1,0 +1,91 @@
+.emptySpaceContact{
+    height: 189px;
+}
+
+.contactW{
+    display: flex;
+    justify-content: center;
+    //align-items: center;
+    margin-bottom: 534px;
+    .contactImg{
+        width: 500px;
+        height: 500px;
+        background-image: linear-gradient(to bottom, 
+        rgba(233,131,13,.4), rgba(233,131,13,.4)),
+        url(../images//contactimg.jpg);
+        background-size: 100%, 125%;
+        background-position: 0px,-40px;
+        margin-right: 126px;
+        background-size: 500px;
+    }
+    .inputW{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .input1{
+            height: 30px;
+            width: 500px;
+            margin-bottom: 56px;
+            border: solid 1px #FC5000;
+            background-color: rgb(201, 201, 201,.42);
+            color: #959B9D;
+        }
+        .input2{
+            height: 30px;
+            width: 500px;
+            margin-bottom: 56px;
+            border: solid 1px #FC5000;
+            background-color: rgb(201, 201, 201,.42);
+            color: #959B9D;
+        }
+        .input3{
+            height: 30px;
+            width: 500px;
+            margin-bottom: 57px;
+            border: solid 1px #FC5000;
+            background-color: rgb(201, 201, 201,.42);
+            color: #959B9D;
+        }
+        .input4{
+            height: 200px;
+            width: 500px;
+            border: solid 1px #FC5000;
+            background-color: rgb(201, 201, 201,.42);
+            color: #959B9D;
+        }
+        .contactB{
+            margin-top: 56px;
+            height: 40px;
+            width: 150px;
+            color: #ffffff;
+            background-color: #00879E;
+            border: none;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+}
+
+@media only all and (max-width: 1151px){
+   .contactW{
+    flex-direction: column;
+   }
+   .inputW{
+   margin-top: 100px;
+   //width: 300px;
+   }
+   .input1{
+   width: 300px;
+   }
+      .input2{
+   width: 300px;
+   }
+      .input3{
+   width: 300px;
+   }
+      .input4{
+   width: 300px;
+   }
+}
